@@ -1,7 +1,9 @@
-///// INSTALLATION ///// http://benja135.free.fr
+#### INSTALLATION 
+http://benja135.free.fr
 
 Pour compiler et lancer les programmes, il faut installer le logiciel
 NXJ leJOS : http://www.lejos.org/nxt/nxj/tutorial/Preliminaries/GettingStarted.htm
+
 Puis installer le plugin Eclipse :
 http://www.lejos.org/nxt/nxj/tutorial/Preliminaries/UsingEclipse.htm
 (sur Windows, utiliser la version 32 bits d'Eclipse, la 64 bits peut poser problème)
@@ -14,11 +16,12 @@ Le sigle [NXT] signifie que le programme fonctionne du coté robot.
 Les projets principaux sont : 
   - Scanner Runner [NXT]
   - Bluetooth Mapper [PC]
+
 (une mini Javadoc est disponible dans leur dossier doc)
 
 L'adresse du robot dans main doit être changé par l'adresse de votre robot.
   
-///// FORME DU ROBOT /////
+#### FORME DU ROBOT
 
 Forme du robot pour "Scanner" : Moteur droit  / port A
 				Moteur gauche / port B
@@ -37,7 +40,7 @@ Forme du robot pour "FastAndFurious" :	Moteur droit  / port A
 Peut être modifié dans "Constantes".
 
 
-///// BLUETOOTH /////
+#### BLUETOOTH
 
 Vous devez disposez d'un dongle bluetooth sur votre ordinateur !
 
@@ -52,7 +55,7 @@ si vous le l'avez pas changé sur le NXT.
 ATTENTION : Le Bluetooth ne fonctionne pas sur Mac.
 
 
-///// PROBLEMES COURANTS /////
+#### PROBLEMES COURANTS /////
 
 - La tête tourne n'importe comment ! : il faut la positionner coté face avant de lancer le programme !
 
