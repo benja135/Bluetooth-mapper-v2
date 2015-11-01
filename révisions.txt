@@ -1,0 +1,32 @@
+OK - envoyer qu'un octet pour le résultat du scan (où chaque bit correspondra à un mur (1) ou pas (0))
+     Et d'une manière générale, envoyer que des octets à la place des entiers
+
+OK - simplifier les rotations de la tête : moins de rotations
+
+OK - augmenter la vitesse dans la phase de scan : vitesse de la tête et du redressement au maximum, vitesse de course augmenter
+
+OK - fusion de deplacementOp et deplacementFast, suppression de la classe deplacement,
+     suppression de méthodes inutiles dans deplacementOp, meilleur gestion des vitesses,
+     méthodes dans deplacementOp réécrite plus simplement en utilisant au maximum les classes de NXJ Lejos
+
+	 
+OK - augmentation significative de la vitesse dans la phase de run : nouvelle technique pour se redresser avec les lignes 
+     noires qui permet d'augmenter la vitesse du robot au maximum même lors des passages sur les lignes, 
+     suppression des stops du robot quand il n'y a pas besoin de se redresser (sur la ligne et avec un mur), 
+     enchainement des virages sans pause (virage à améliorer)
+ 
+OK - suppression de la "backdoor" de l'interface graphique, ajout d'un item dans le menu : "reprendre à la phase 2"
+
+OK - gestion de l'exception qui se produit lorsque le labyrinthe a été parcouru entiérement mais ne posséde pas de ligne d'arrivée
+     et quand le fichier de séquence est manquant en phase 2
+
+OK - doc avec éxplications capteurs/ports utilisés : lisez-moi 2
+
+
+NON - changer la structure de données principale ?
+
+NON - structure de données "dynamique"
+
+NON - lister les cases non visités au fur à mesure (pour éviter de les calculer ensuite)
+
+NON - changer la forme du robot pour que la tête rotative soit plus simple à fixer
