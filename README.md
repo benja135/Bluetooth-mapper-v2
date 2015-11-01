@@ -55,7 +55,7 @@ si vous le l'avez pas changé sur le NXT.
 ATTENTION : Le Bluetooth ne fonctionne pas sur Mac.
 
 
-#### PROBLEMES COURANTS /////
+#### PROBLEMES COURANTS
 
 - La tête tourne n'importe comment ! : il faut la positionner coté face avant de lancer le programme !
 
