@@ -1,5 +1,9 @@
-#### INSTALLATION 
+
+Il s'agit d'une amélioration de ce projet : https://github.com/benja135/bluetooth-mapper
+
 http://benja135.free.fr
+
+#### INSTALLATION 
 
 Pour compiler et lancer les programmes, il faut installer le logiciel
 NXJ leJOS : http://www.lejos.org/nxt/nxj/tutorial/Preliminaries/GettingStarted.htm
@@ -23,21 +27,23 @@ L'adresse du robot dans main doit être changé par l'adresse de votre robot.
   
 #### FORME DU ROBOT
 
-Forme du robot pour "Scanner" : Moteur droit  / port A
-				Moteur gauche / port B
-				Moteur tete   / port C
-				Capteur distance sur tete / port 1
-				Capteur lumiére gauche 	  / port 2
-				capteur lumiére droit 	  / port 3
+###### Forme du robot pour "Scanner" : 
+- Moteur droit  / port A
+- Moteur gauche / port B
+- Moteur tete   / port C
+- Capteur distance sur tete / port 1
+- Capteur lumiére gauche / port 2
+- capteur lumiére droit / port 3
 				
-Forme du robot pour "FastAndFurious" :	Moteur droit  / port A
-					Moteur gauche / port B
-					Capteur distance droit  / port 1
-					Capteur distance gauche / port 4
-					Capteur lumiére gauche  / port 2
-					capteur lumiére droit   / port 3
+###### Forme du robot pour "FastAndFurious" :	
+- Moteur droit  / port A
+- Moteur gauche / port B
+- Capteur distance droit  / port 1
+- Capteur distance gauche / port 4
+- Capteur lumiére gauche  / port 2
+- capteur lumiére droit   / port 3
 					
-Peut être modifié dans "Constantes".
+Peut être modifié dans la classe "Constantes".
 
 
 #### BLUETOOTH
