@@ -10,13 +10,13 @@ package types;
  * Type cellule
  */
 public class CelluleLabyrinthe {
-    
+
     public boolean visite;      // Est-ce que la cellule a déjà été visité ?
     public boolean north;       // Est-ce qu'il y a un mur au nord ?
     public boolean south;       // ... au sud ?
     public boolean east;        // ... à l'est ?
     public boolean west;        // ... à l'ouest ?
-    
+
     public CelluleLabyrinthe() {
         this.visite = false;
         this.north = true;
@@ -24,5 +24,5 @@ public class CelluleLabyrinthe {
         this.east = true;
         this.west = true;
     }
-       
+
 }

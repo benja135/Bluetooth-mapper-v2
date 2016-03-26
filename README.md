@@ -1,7 +1,7 @@
 
 Il s'agit d'une amélioration de ce projet : https://github.com/benja135/bluetooth-mapper
 
-http://benja135.free.fr
+http://benja135.xyz/blog/cartographie-et-sortie-labyrinthe
 
 #### INSTALLATION 
 
